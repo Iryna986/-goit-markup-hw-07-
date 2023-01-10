@@ -1097,7 +1097,7 @@ img {
 
 .list-social-media {
   display: flex;
-
+  padding-left: 14px;
   gap: 24px;
 }
 
