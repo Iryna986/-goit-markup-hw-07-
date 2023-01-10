@@ -256,16 +256,16 @@ img {
 .mobile-nav-header-item:not(:last-child) {
   margin-bottom: 40px;
 }
-
+/*===================================*/
 .mobile-menu-down {
   margin-top: auto;
 }
 
-.mobile-site-address {
+.mobile-contact-site {
   margin-bottom: 48px;
 }
 
-.mobile-site-mail .link {
+.mobile-site-mailto .link {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: var(--secondary-font-size);
@@ -276,12 +276,12 @@ img {
   transition: color var(--main-transition);
 }
 
-.mobile-site-mail .link:hover,
-.mobile-site-mail .link:focus {
+.mobile-site-mailto .link:hover,
+.mobile-site-mailto .link:focus {
   color: var(--accent);
 }
 
-.mobile-site-tel .link {
+.mobile-phone-site .link {
   font-family: var(--primary-font);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-text-color);
@@ -292,12 +292,12 @@ img {
   transition: color var(--main-transition);
 }
 
-.mobile-site-tel .link:hover,
-.mobile-site-tel .link:focus {
+.mobile-phone-site .link:hover,
+.mobile-phone-site .link:focus {
   color: var(--accent);
 }
 
-.mobile-site-tel {
+.mobile-phone-site {
   margin-bottom: 40px;
 }
 
@@ -305,7 +305,7 @@ img {
   display: flex;
 }
 
-.mobile-menu-media-item:not(:last-child) {
+.mobile-menu-social-item:not(:last-child) {
   margin-right: 56px;
 }
 
@@ -397,7 +397,7 @@ img {
     display: block;
     transition: color var(--main-transition);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: var(--primary-text-color);
@@ -415,7 +415,6 @@ img {
   }
 
   .logo-web {
-    margin-right: 76px;
   }
 
   .current::after {
@@ -574,6 +573,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
+  border: none;
   transition: background-color var(--main-transition), box-shadow var(--main-transition);
 }
 
@@ -1097,8 +1097,7 @@ img {
 
 .list-social-media {
   display: flex;
-  padding-left: 14px;
-  padding-right: 14px;
+
   gap: 24px;
 }
 
@@ -1407,6 +1406,7 @@ img {
 
 .footer-promotion > .logo-web {
   display: block;
+  margin-bottom: 16px;
 }
 
 .studio-white {
